@@ -40,7 +40,6 @@ function App() {
             <NoMatch/>
           </Route>
         </Switch>
-        <Nav/>
       </Router>
     </AppWrapper>
   );
