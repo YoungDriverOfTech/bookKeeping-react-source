@@ -1,6 +1,7 @@
 {
   "name": "book-keeping-react",
   "version": "0.1.0",
+  "homepage": "https://YoungDriverOfTech.github.io/bookKeeping-react/",
   "private": true,
   "dependencies": {
     "@babel/core": "7.9.0",
