@@ -1,5 +1,5 @@
 import Layout from '../components/Layout';
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import styled from 'styled-components';
 import {CategorySection} from './Money/CategorySection';
 import {NumberPadSection} from './Money/NumberPadSection';
@@ -37,6 +37,13 @@ function Money() {
       setSelected(defaultFormData);
     }
   };
+
+  useEffect(() => {
+    setTimeout(() => {
+      console.log('时间到');
+      setSelected({...selected, amount: 1000});
+    }, 3000);
+  }, []);
 
   return (
     <MyLayout>
